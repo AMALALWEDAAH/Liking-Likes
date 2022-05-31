@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>likes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="nav"><h1>Network</h1></div>
+    <h1 id="tit">Your Feed</h1>
+    <div class="main">
+      <div class="right">
+        <div class="personCard">
+          <img src="assets/user.png" alt="personal pic" />
+          <a href="##">Add an avatar</a>
+          <h1>James Doe</h1>
+        </div>
+      </div>
+      <div class="left">
+        <div class="card">
+          <div class="likes">
+            <h2>Neil M</h2>
+            <div class="flexEnd">
+              <p><span id="count">9</span> like(s)</p>
+              <button id="i" onclick="addLike(this)">like</button>
+            </div>
+          </div>
+          <div class="dif">
+            <p>
+              I just set up this new discord bot , let me know what you all
+              think. <a href="##">link</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="likes">
+            <h2>Nichole K</h2>
+            <div class="flexEnd">
+              <p><span id="count">12</span> like(s)</p>
+              <button onclick="addLike(this)">like</button>
+            </div>
+          </div>
+          <div class="dif">
+            <p>Just finished my <a href="##">next comic</a>, check it out.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="likes">
+            <h2>Jim R</h2>
+            <div class="flexEnd">
+              <p><span id="count">9</span> like(s)</p>
+              <button onclick="addLike(this)">like</button>
+            </div>
+          </div>
+          <div class="dif">
+            <p>
+              I can't stop listening to the <a href="##">new album</a>.
+              <br />
+              Who else is liking it?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
